@@ -1,34 +1,33 @@
+#include "GameCore.hpp"
 #include <SFML/Graphics.hpp>
-#include <SFML/Graphics/RenderWindow.hpp>
-#include <SFML/Window/Keyboard.hpp>
+#include <SFML/Graphics/Image.hpp>
+#include <iostream>
 
-void close_game(sf::RenderWindow &window, sf::Event &event) {
-	if (event.type == sf::Event::Closed 
-		|| (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::Escape))
-            window.close();
+int main() {
+    try {
+        // Create with default settings
+        GameCore game;
 
-}
+        sf::CircleShape shape(100.f);
+        shape.setFillColor(sf::Color::Red);
+		// sf::Image menue;
 
-int main()
-{
-    sf::RenderWindow window(sf::VideoMode(800, 800), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Red);
+		// menue.loadFromFile("/home/ahmed-galadi/Downloads/mainMenueOfficial.png");
 
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-			close_game(window, event);
+        while (game.getWindow().isOpen()) {
+            game.eventHandler();
+            
+            std::vector<std::reference_wrapper<sf::Drawable>> drawables;
+            drawables.push_back(shape);
+            
+            game.render(drawables);
         }
-
-        window.clear();
-        window.draw(shape);
-        window.display();
+    } catch (const std::exception& e) {
+        std::cerr << "Game crashed: " << e.what() << std::endl;
+        return EXIT_FAILURE;
     }
 
-    return 0;
+    return EXIT_SUCCESS;
 }
 
 
