@@ -29,8 +29,8 @@ You play as a silent wanderer navigating abstract ruins of your own mind, rekind
 
 ## 🚧 Development Status
 
-- [x] Core engine & input
-- [x] Scene switching
+- [] Core engine & input
+- [] Scene switching
 - [ ] Save/load mechanics
 - [ ] Sound integration
 - [ ] UI polish
