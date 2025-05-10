@@ -32,6 +32,7 @@ You play as a silent wanderer navigating abstract ruins of your own mind, rekind
   <img src="assets/bathroom.png" alt="Memory Room" width="400"/>
   <img src="assets/creepy.png" alt="Ending" width="400"/>
 </p>
+
 - 🕯️ The Candle Shrine – where each lit flame recalls a choice you once made.  
 - 🌫️ The Fog Corridor – a puzzle area where paths change with your thoughts.  
 - 📜 The Echoing Library – interact with fragments of written memories.  
