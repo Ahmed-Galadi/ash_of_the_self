@@ -66,17 +66,4 @@ You play as a silent wanderer navigating abstract ruins of your own mind, rekind
 💻 Low-level enthusiast | C++ builder | Web explorer  
 📧 [galadiahmed99@gmail.com](mailto:galadiahmed99@gmail.com)
 
----
-
-## 📷 Optional: GitHub Stats (for your profile README)
-
-```markdown
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ahmed-galadi&show_icons=true&theme=onedark" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmed-galadi&theme=onedark" />
-</p>
-```
-
----
-
 > _“To light a candle is to cast a shadow.” – Ursula K. Le Guin_
