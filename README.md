@@ -17,7 +17,7 @@ You play as a silent wanderer navigating abstract ruins of your own mind, rekind
 
 - 💻 **C++**
 - 🎮 **[SFML](https://www.sfml-dev.org/)** — Simple and Fast Multimedia Library
-- 🎨 Pixel art graphics (custom made or CC0 assets)
+- 🎨 Pixel art graphics (custom made)
 
 ## 📸 Scenes (Coming Soon)
 
