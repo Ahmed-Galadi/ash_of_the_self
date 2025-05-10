@@ -24,7 +24,7 @@ You play as a silent wanderer navigating abstract ruins of your own mind, rekind
 > _“A memory is not a moment — it’s a place you return to.”_
 
 <p align="center">
-  <img src="assets/game_intro" alt="Intro Scene" width="400"/>
+  <img src="assets/game_intro.png" alt="Intro Scene" width="400"/>
   <img src="assets/room.png" alt="Shrine Puzzle" width="400"/>
 </p>
 
