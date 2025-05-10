@@ -1,96 +1,82 @@
+# 🕯️ Ash of the Self
+
+> A pixel-souled journey into memory, loss, and self-discovery.
+
+![Ash of the Self Banner](https://your-image-link.com/pixel-art-banner.png)
+
+## 🎮 About the Game
+
+**Ash of the Self** is a 2D point-and-click narrative game crafted in **C++ with SFML**, set in a haunting world made of flickering memories and forgotten thoughts.  
+You play as a silent wanderer navigating abstract ruins of your own mind, rekindling memories while avoiding the shadows of doubt.
+
+🧠 **Theme**: Introspective, melancholic, and symbolic  
+🖼️ **Visual Style**: Pixel art with minimal UI  
+🎵 **Sound**: Ambient layers and subtle FX (to be added)
+
+## 🔧 Built With
+
+- 💻 **C++**
+- 🎮 **[SFML](https://www.sfml-dev.org/)** — Simple and Fast Multimedia Library
+- 🎨 Pixel art graphics (custom made or CC0 assets)
+
+## 📸 Scenes (Coming Soon)
+
+> _“A memory is not a moment — it’s a place you return to.”_
+
+- 🕯️ The Candle Shrine – where each lit flame recalls a choice you once made.  
+- 🌫️ The Fog Corridor – a puzzle area where paths change with your thoughts.  
+- 📜 The Echoing Library – interact with fragments of written memories.  
+
+## 🚧 Development Status
+
+- [x] Core engine & input
+- [x] Scene switching
+- [ ] Save/load mechanics
+- [ ] Sound integration
+- [ ] UI polish
+- [ ] Memory puzzle mechanics
+
+---
+
+## ✨ How to Run
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/your-username/ash_of_the_self.git
+   cd ash_of_the_self
+   ```
+
+2. Build the project  
+   (Make sure SFML is installed on your system)  
+   ```bash
+   g++ -o ash_of_self main.cpp -lsfml-graphics -lsfml-window -lsfml-system
+   ```
+
+3. Run the game  
+   ```bash
+   ./ash_of_self
+   ```
+
+---
+
+## 🙋‍♂️ Author
+
+**Ahmed Galadi**  
+🎓 Student at 1337 Coding School  
+💻 Low-level enthusiast | C++ builder | Web explorer  
+📧 [galadiahmed99@gmail.com](mailto:galadiahmed99@gmail.com)
+
+---
+
+## 📷 Optional: GitHub Stats (for your profile README)
+
+```markdown
 <p align="center">
-  <img src="assets/banner.png" alt="Ash of the Self Banner" width="100%"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ahmed-galadi&show_icons=true&theme=onedark" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmed-galadi&theme=onedark" />
 </p>
-
-<h1 align="center">🕯️ Ash of the Self</h1>
-<p align="center">
-  A pixel-art narrative game built with C++ and SFML, exploring the depths of memory, identity, and inner flame.
-</p>
+```
 
 ---
 
-## 🌌 About the Game
-
-**Ash of the Self** is a 2D top-down puzzle-adventure game written in **C++** using the **SFML** multimedia library.  
-You play as a wandering soul, drifting through ruins of memory and myth, reigniting fragments of a forgotten identity.
-
-> 🔥 C++ & SFML based  
-> 🎨 Pixel-art graphics  
-> 🧠 Story-driven puzzles  
-> 🌘 Atmospheric soundtrack
-
----
-
-## 🎮 Gameplay Features
-
-- 🧭 **Explore** handcrafted ruins and sacred spaces  
-- 🧩 **Solve** logic and timing-based puzzles  
-- 🔥 **Light shrines**, **trigger ancient machines**, and **restore lost memories**  
-- 🕯️ **Your flame is your life** — and it’s slowly fading  
-- 💀 Permadeath adds tension and encourages mastery
-
----
-
-## 📸 Scenes
-
-<p align="center">
-  <img src="assets/screenshots/intro.png" alt="Intro Scene" width="400"/>
-  <img src="assets/screenshots/shrine.png" alt="Shrine Puzzle" width="400"/>
-</p>
-
-<p align="center">
-  <img src="assets/screenshots/memory_room.png" alt="Memory Room" width="400"/>
-  <img src="assets/screenshots/end_sequence.png" alt="Ending" width="400"/>
-</p>
-
-> 📷 Replace the images above with actual in-game screenshots.
-
----
-
-## 🕹️ Controls
-
-| Key        | Action            |
-|------------|-------------------|
-| `W A S D`  | Move              |
-| `E`        | Interact          |
-| `Space`    | Ignite / Use Flame |
-| `ESC`      | Pause / Quit      |
-
----
-
-## ⚙️ How to Build & Run
-
-### 🧱 Prerequisites
-
-- C++ compiler (C++11 or newer)
-- [SFML](https://www.sfml-dev.org/) installed (v2.5 or later)
-- CMake (optional, for build automation)
-
-### 🛠️ Build
-
-```bash
-git clone https://github.com/ahmed-galadi/ash_of_the_self.git
-cd ash_of_the_self
-make        # or use cmake if provided
-./AshOfTheSelf
-📝 All assets and map files should be in the correct folders when running the game.
-
-🧰 Tech Stack
-Language: C++
-
-Library: SFML
-
-Graphics: Custom pixel art
-
-Audio: SFML Audio module
-
-👨‍💻 Made By
-Built with care by Ahmed Galadi
-🎓 Student at 1337 Coding School
-💻 Passionate about low-level programming and game design
-🌐 Also exploring full-stack web development
-
-📜 License
-MIT License — open to forks, mods, and collaboration (just credit the original!)
-
-<p align="center"> <em>"The flame dims. The ash settles. But the self… endures."</em> </p> ```
+> _“To light a candle is to cast a shadow.” – Ursula K. Le Guin_
