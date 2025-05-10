@@ -2,7 +2,7 @@
 
 > A pixel-souled journey into memory, loss, and self-discovery.
 
-![Ash of the Self Banner](https://your-image-link.com/pixel-art-banner.png)
+![Ash of the Self Banner](./assets/ash_banner.png)
 
 ## 🎮 About the Game
 
