@@ -66,7 +66,7 @@ void GameCore::render(const std::vector<std::reference_wrapper<sf::Drawable>>& d
 
 void GameCore::setCursor(const std::string& path) {
     sf::Image cursorImage;
-    if (!cursorImage.loadFromFile(path)) {
+    if (!cursorImage.loadFromFile("./assets/HandCursor1.png")) {
         throw std::runtime_error("Failed to load cursor image: " + path);
     }
     if (!cursor.loadFromPixels(cursorImage.getPixelsPtr(), cursorImage.getSize(), {0, 0})) {
