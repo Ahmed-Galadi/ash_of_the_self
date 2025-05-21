@@ -52,7 +52,7 @@ You play as a silent wanderer navigating abstract ruins of your own mind, rekind
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/your-username/ash_of_the_self.git
+   git clone https://github.com/Ahmed-Galadi/ash_of_the_self.git
    cd ash_of_the_self
    ```
 
@@ -62,7 +62,13 @@ You play as a silent wanderer navigating abstract ruins of your own mind, rekind
    g++ -o ash_of_self main.cpp -lsfml-graphics -lsfml-window -lsfml-system
    ```
 
-3. Run the game  
+   or
+
+   ```bash
+   make
+   ```
+
+4. Run the game  
    ```bash
    ./ash_of_self
    ```
