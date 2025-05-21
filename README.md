@@ -59,7 +59,7 @@ You play as a silent wanderer navigating abstract ruins of your own mind, rekind
 2. Build the project  
    (Make sure SFML is installed on your system)  
    ```bash
-   g++ -o ash_of_self main.cpp -lsfml-graphics -lsfml-window -lsfml-system
+   g++ -o ash_of_self main.cpp GameCore.cpp -lsfml-graphics -lsfml-window -lsfml-system
    ```
 
    or
