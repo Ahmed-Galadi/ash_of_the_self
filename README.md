@@ -52,17 +52,22 @@ You play as a silent wanderer navigating abstract ruins of your own mind, rekind
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/your-username/ash_of_the_self.git
+   git clone https://github.com/Ahmed-Galadi/ash_of_the_self.git
    cd ash_of_the_self
    ```
 
 2. Build the project  
    (Make sure SFML is installed on your system)  
    ```bash
-   g++ -o ash_of_self main.cpp -lsfml-graphics -lsfml-window -lsfml-system
+   g++ -o ash_of_self main.cpp GameCore.cpp -lsfml-graphics -lsfml-window -lsfml-system
+   ```
+   or
+   
+   ```bash
+   make
    ```
 
-3. Run the game  
+4. Run the game  
    ```bash
    ./ash_of_self
    ```
