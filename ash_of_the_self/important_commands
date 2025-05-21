@@ -1,2 +1,0 @@
-install ::===> sudo apt install libopenal-dev libflac-dev libvorbis-dev libgl1-mesa-dev libxrandr-dev libfreetype6-dev libudev-dev
-compile ::===> g++ main.cpp -o test -lsfml-graphics -lsfml-window -lsfml-system
